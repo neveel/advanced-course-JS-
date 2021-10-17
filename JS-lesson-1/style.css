@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none
+    }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    }
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    filter: drop-shadow(2px 3px 3px blue);
+    border: 1px solid black;
+}
+
+.cart-button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 2%;
+    padding: 1px 8px 1px 8px;
+}
+.goods-list {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(2px 3px 3px pink);
+}
+.img {
+    max-width: 80%;
+}
